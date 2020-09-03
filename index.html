@@ -5,6 +5,7 @@
     <title>Career Path</title>
 
     <style>
+        /* enforces the columns to be side-by-side */
         * {
             box-sizing: border-box;
         }
@@ -44,6 +45,7 @@
             padding-bottom: 3%;
             background-color: dimgray;
         }
+        /* <hr> tags in columns */
         .column0 {
             float: left;
             height: auto;
@@ -53,6 +55,7 @@
             padding-top: 1%;
             background-color: darkred;
         }
+        /* enforces the rows to be below in a consistent table */
         .row:after {
             content: "";
             display: table;
@@ -74,9 +77,11 @@
             padding-left: 15px;
             padding-right: 15px;
         }
+        /* changes the cursor */
         button.pointer {
             cursor: pointer;
         }
+        /* changes the color of background & text when cursor is hovered over button */
         button:hover {
             background-color: black;
             color: white;
@@ -86,6 +91,7 @@
 <body>
 
 <div class="row">
+    <!-- Intro to early career planning -->
     <h2>From the beginning of time in a land far, far away <span>.</span><span>.</span><span>.</span><span>.</span><span>.</span></h2>
     <div class="column1">
         <p>I started deciding on my career during my freshman year in high school. I
@@ -100,6 +106,7 @@
             as Computer Science.
         </p>
     </div>
+    <!-- Img links to Wikipedia & University site -->
     <div class="column1">
         <a href="https://en.wikipedia.org/wiki/Veterinarian" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Surgery_performed_on_a_domestic_cat.jpg/220px-Surgery_performed_on_a_domestic_cat.jpg" />
@@ -120,6 +127,7 @@
 </div>
 
 <div class="row">
+    <!-- ordered list -->
     <div class="column2">
         <ol>
             <li>In the beginning, you will run into errors. That's normal, so relax.</li>
@@ -128,6 +136,7 @@
             <li>Once you know one language, it's not that hard to learn another.</li>
         </ol>
     </div>
+    <!-- unordered list -->
     <div class="column2">
         <ul>
             <li>Python 2</li>
@@ -143,12 +152,16 @@
 </div>
 
 <div class="row">
+    <!-- Youtube embed video -->
     <h2>How coding changed my life <span>.</span><span>.</span><span>.</span><span>.</span><span>.</span></h2>
     <div class="column3">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Dv7gLpW91DM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <!-- clickable button leading to github for this program -->
     <div class="column3">
-        <button class="pointer"><em>Click</em><em>Here</em><em>For</em><em>Github</em></button>
+        <a href="https://github.com/thunder789066/Web_ICP2" target="_blank">
+            <button class="pointer"><em>Click</em><em>Here</em><em>For</em><em>Github</em></button>
+        </a>
     </div>
 </div>
 
