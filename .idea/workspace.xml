@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e6c7be4-d451-474a-8b3a-ed4f4d6e575a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/default.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoogleTask_ICP2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -46,6 +46,7 @@
       <workItem from="1599078663516" duration="11532000" />
       <workItem from="1599100088940" duration="5563000" />
       <workItem from="1599161554821" duration="29000" />
+      <workItem from="1599173934753" duration="1329000" />
     </task>
     <servers />
   </component>
